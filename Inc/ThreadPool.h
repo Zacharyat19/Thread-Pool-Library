@@ -7,7 +7,8 @@
 #include <condition_variable>
 #include <functional>
 
-class ThreadPool {
+class ThreadPool 
+{
 public:
     // Constructor: create a pool with a fixed number of threads
     explicit ThreadPool(size_t numThreads);
