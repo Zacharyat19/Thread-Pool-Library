@@ -30,6 +30,5 @@ private:
     std::mutex queueMutex;
     std::condition_variable condition;
 
-    // Control flag
     bool stop;
 };
