@@ -26,7 +26,6 @@ private:
     // Task queue
     std::queue<std::function<void()>> tasks;
 
-    // Synchronization
     std::mutex queueMutex;
     std::condition_variable condition;
 
