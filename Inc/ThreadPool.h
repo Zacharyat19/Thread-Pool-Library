@@ -23,7 +23,6 @@ private:
     // Worker threads
     std::vector<std::thread> workers;
 
-    // Task queue
     std::queue<std::function<void()>> tasks;
 
     std::mutex queueMutex;
